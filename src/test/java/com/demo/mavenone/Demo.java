@@ -34,6 +34,7 @@ public class Demo {
 		}
 		else {
 			System.out.println("Hello: "+browser);
+			System.out.println("hello");
 		}
 		
 		
