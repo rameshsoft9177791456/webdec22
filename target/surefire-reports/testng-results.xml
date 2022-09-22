@@ -2,12 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-22T12:27:15 IST" name="Suite" finished-at="2022-09-22T12:27:39 IST" duration-ms="24231">
+  <suite started-at="2022-09-22T13:17:27 IST" name="Suite" finished-at="2022-09-22T13:17:43 IST" duration-ms="15750">
     <groups>
     </groups>
-    <test started-at="2022-09-22T12:27:15 IST" name="Test" finished-at="2022-09-22T12:27:39 IST" duration-ms="24231">
+    <test started-at="2022-09-22T13:17:27 IST" name="Test" finished-at="2022-09-22T13:17:43 IST" duration-ms="15750">
       <class name="com.demo.mavenone.Demo">
-        <test-method signature="hello()[pri:0, instance:com.demo.mavenone.Demo@741a8937]" started-at="2022-09-22T12:27:15 IST" name="hello" finished-at="2022-09-22T12:27:39 IST" duration-ms="24116" status="PASS">
+        <test-method signature="hello(java.lang.String)[pri:0, instance:com.demo.mavenone.Demo@4f2b503c]" started-at="2022-09-22T13:17:27 IST" name="hello" finished-at="2022-09-22T13:17:43 IST" duration-ms="15672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hello -->
