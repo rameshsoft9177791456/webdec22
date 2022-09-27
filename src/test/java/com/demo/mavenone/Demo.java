@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -12,12 +13,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Demo {
 
-	@Parameters({"Browser"})
+	@Parameters({"Choice"})
 	@Test
-	public void hello(String browser) throws InterruptedException {
-		
+	public void hello(@Optional("chrome")String browser) throws InterruptedException {
+		String choice = System.getProperty("Choice");
+		System.out.println("Choice is: "+choice);
 		if (browser.equalsIgnoreCase("chrome")) {
-			System.out.println("maven: hello");
+			System.out.println("mavenone: hello");
 			WebDriverManager.chromedriver().setup();
 			WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
