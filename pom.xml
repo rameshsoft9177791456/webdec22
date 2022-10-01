@@ -85,9 +85,9 @@
         D:\new8amapr22\mavenone\testng.xml
        </suiteXmlFile>
       </suiteXmlFiles>
-      <systemPropertyVariables>
+      <!-- <systemPropertyVariables>
       <Choice>${Choice}</Choice>
-      </systemPropertyVariables>
+      </systemPropertyVariables> -->
      </configuration>
     </plugin>
    </plugins>
