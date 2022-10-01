@@ -5,19 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build World'
-                build 'mavenjob1'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Test World'
-                build 'mavenjob2'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploy World'
-                build 'mavenjob3'
+                build 'testjob'
             }
         }
     }
