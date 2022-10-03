@@ -17,7 +17,7 @@ public class Demo {
 	@Test
 	public void hello(@Optional("chrome")String browser) throws InterruptedException {
 		String choice = System.getProperty("Choice");
-		System.out.println("Choice is: "+choice);
+		System.out.println("Choice is : "+choice);
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.out.println("mavenone: hello");
 			WebDriverManager.chromedriver().setup();
