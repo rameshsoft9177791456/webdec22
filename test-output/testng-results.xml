@@ -1,17 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17092" started-at="2022-09-02T06:20:02Z" finished-at="2022-09-02T06:20:19Z">
+  <suite started-at="2022-11-19T05:09:41Z" name="Suite" finished-at="2022-11-19T05:11:06Z" duration-ms="85721">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17092" started-at="2022-09-02T06:20:02Z" finished-at="2022-09-02T06:20:19Z">
-      <class name="com.demo.mavenone.Demo">
-        <test-method status="PASS" signature="hello()[pri:0, instance:com.demo.mavenone.Demo@4e9ba398]" name="hello" duration-ms="17063" started-at="2022-09-02T06:20:02Z" finished-at="2022-09-02T06:20:19Z">
+    <test started-at="2022-11-19T05:09:41Z" name="IeTest" finished-at="2022-11-19T05:10:15Z" duration-ms="34205">
+      <class name="com.demo.test.SauceLabsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.test.SauceLabsTest@e7edb54]" started-at="2022-11-19T05:09:41Z" name="openBrowser" finished-at="2022-11-19T05:09:55Z" duration-ms="14105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.test.SauceLabsTest.sauceLabsTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hello -->
-      </class> <!-- com.demo.mavenone.Demo -->
-    </test> <!-- Test -->
+        </test-method> <!-- openBrowser -->
+        <test-method signature="sauceLabsTest()[pri:0, instance:com.demo.test.SauceLabsTest@e7edb54]" started-at="2022-11-19T05:09:55Z" name="sauceLabsTest" finished-at="2022-11-19T05:10:14Z" duration-ms="19616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sauceLabsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demo.test.SauceLabsTest@e7edb54]" started-at="2022-11-19T05:10:14Z" name="closeBrowser" finished-at="2022-11-19T05:10:15Z" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demo.test.SauceLabsTest -->
+    </test> <!-- IeTest -->
+    <test started-at="2022-11-19T05:09:41Z" name="EdgeTest" finished-at="2022-11-19T05:10:33Z" duration-ms="52857">
+      <class name="com.demo.test.SauceLabsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.test.SauceLabsTest@55536d9e]" started-at="2022-11-19T05:09:41Z" name="openBrowser" finished-at="2022-11-19T05:10:14Z" duration-ms="33245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.test.SauceLabsTest.sauceLabsTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="sauceLabsTest()[pri:0, instance:com.demo.test.SauceLabsTest@55536d9e]" started-at="2022-11-19T05:10:14Z" name="sauceLabsTest" finished-at="2022-11-19T05:10:33Z" duration-ms="19033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sauceLabsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demo.test.SauceLabsTest@55536d9e]" started-at="2022-11-19T05:10:33Z" name="closeBrowser" finished-at="2022-11-19T05:10:33Z" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demo.test.SauceLabsTest -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-11-19T05:09:41Z" name="FirefoxTest" finished-at="2022-11-19T05:11:04Z" duration-ms="83622">
+      <class name="com.demo.test.SauceLabsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.test.SauceLabsTest@10959ece]" started-at="2022-11-19T05:09:41Z" name="openBrowser" finished-at="2022-11-19T05:10:44Z" duration-ms="63254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.test.SauceLabsTest.sauceLabsTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="sauceLabsTest()[pri:0, instance:com.demo.test.SauceLabsTest@10959ece]" started-at="2022-11-19T05:10:44Z" name="sauceLabsTest" finished-at="2022-11-19T05:11:03Z" duration-ms="19143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sauceLabsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demo.test.SauceLabsTest@10959ece]" started-at="2022-11-19T05:11:03Z" name="closeBrowser" finished-at="2022-11-19T05:11:04Z" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demo.test.SauceLabsTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-11-19T05:09:41Z" name="ChromeTest" finished-at="2022-11-19T05:11:06Z" duration-ms="85716">
+      <class name="com.demo.test.SauceLabsTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.test.SauceLabsTest@4ef37659]" started-at="2022-11-19T05:09:41Z" name="openBrowser" finished-at="2022-11-19T05:10:43Z" duration-ms="61950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.demo.test.SauceLabsTest.sauceLabsTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="sauceLabsTest()[pri:0, instance:com.demo.test.SauceLabsTest@4ef37659]" started-at="2022-11-19T05:10:43Z" name="sauceLabsTest" finished-at="2022-11-19T05:11:02Z" duration-ms="19207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sauceLabsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demo.test.SauceLabsTest@4ef37659]" started-at="2022-11-19T05:11:02Z" name="closeBrowser" finished-at="2022-11-19T05:11:06Z" duration-ms="4453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demo.test.SauceLabsTest -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
