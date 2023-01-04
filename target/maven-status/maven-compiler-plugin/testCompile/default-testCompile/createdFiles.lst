@@ -1,5 +1,12 @@
+com\demo\mavenone\BaseTest.class
+com\demo\mavenone\BaseTest1.class
+com\demo\mavenone\Selenium4Test.class
 com\demo\mavenone\WriteJsonDemo4.class
+com\demo\mavenone\SauceLabsBaseDemo.class
+com\demo\mavenone\HelloDemo.class
 com\demo\mavenone\ReadJsonDemo.class
+com\demo\mavenone\BaseTest2.class
+com\demo\test\SauceLabsTest.class
 com\demo\mavenone\Demo.class
 com\demo\mavenone\WriteJsonDemo1.class
 com\demo\test\DemoTest.class
@@ -9,3 +16,4 @@ com\demo\mavenone\Main.class
 com\demo\mavenone\Company.class
 com\demo\mavenone\WriteJsonDemo2.class
 com\demo\mavenone\Demo1.class
+com\demo\mavenone\WebDriverManagerDemo.class

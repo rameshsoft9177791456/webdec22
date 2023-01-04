@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.demo.test.DemoTest">
+      <class name="com.demo.mavenone.Selenium4Test">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="setUp"/>
-          <include name="loginTest"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.demo.test.DemoTest -->
+      </class> <!-- com.demo.mavenone.Selenium4Test -->
     </classes>
-  </test> <!-- FirefoxTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
