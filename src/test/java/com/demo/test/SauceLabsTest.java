@@ -19,7 +19,8 @@ public class SauceLabsTest extends SauceLabsBaseDemo{
 		WebElement nxt = getDriver().findElement(By.id("identifierNext"));
 		nxt.click();
 		Thread.sleep(5000);
-		
+		System.out.println("hello");
+		Thread.sleep(5000);
 	}
 	
 }

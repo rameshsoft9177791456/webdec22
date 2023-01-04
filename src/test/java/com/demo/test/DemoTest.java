@@ -17,6 +17,8 @@ public class DemoTest extends BaseTest2{
 		Thread.sleep(5000);
 		getDriver().findElement(By.id("identifierNext")).click();
 		Thread.sleep(5000);
+		System.out.println("hello");
+		System.out.println("hello");
 	}
 	
 }
