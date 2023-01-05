@@ -24,6 +24,7 @@ public class DemoTest extends BaseTest2{
 		System.out.println("Hardwork");
 		System.out.println("hello");
 		System.out.println("Hardwork");
+		System.out.println("Hardwork");
 	}
 	
 }
